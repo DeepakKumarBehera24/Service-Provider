@@ -67,6 +67,14 @@ footer{
     .second{
         font-size: xx-large;
     }
+    .video{
+        width: 300px;
+        height: 400px;
+    }
+    .main{
+        width: 450px;
+        height: 400px;
+    }
 
 }
 /*marquee{*/
