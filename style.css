@@ -1,0 +1,97 @@
+body{
+    background-color: black;
+    color: black;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100px 100px;
+    gap: 10px;
+    margin: 10px;
+}
+.header{
+    grid-column: span 2;
+}
+.first{
+    font-family: "Apple SD Gothic Neo";
+    font-size: xx-large;
+    color: floralwhite;
+}
+.second{
+    font-family: AppleGothic;
+    color: white;
+    font-size: xxx-large;
+    font-weight: bolder;
+}
+.second span{
+    color: mediumspringgreen;
+}
+.column1, .column2{
+    color: white;
+    font-family: "Apple LiGothic";
+    letter-spacing: 1px;
+    flex-direction: row;
+    border: 1px solid mediumspringgreen;
+    border-radius: 20px;
+}
+.img1, .img2{
+    float: left;
+    margin: 15px;
+    border-radius: 20px;
+}
+.p1, .p2{
+    margin: 15px;
+}
+footer{
+    color: white;
+    font-family: "Apple LiGothic";
+    font-size: smaller;
+    text-align: right;
+    justify-content: right;
+}
+@media (max-width: 900px) {
+    .container{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 100px 100px;
+        gap: 10px;
+        margin: 10px;
+    }
+    .header{
+        grid-column: span 1;
+        text-align: center;
+    }
+    .first{
+        font-size: larger;
+    }
+    .second{
+        font-size: xx-large;
+    }
+
+}
+/*marquee{*/
+/*    color: mediumspringgreen;*/
+/*    margin-top: 10px;*/
+/*    margin-bottom: 50px;*/
+/*    font-family: AppleGothic;*/
+/*    background-color: #3a3a3a;*/
+/*    padding: 10px;*/
+/*    letter-spacing: 1px;*/
+/*}*/
+/*.breaking{*/
+/*    font-size: x-large;*/
+/*    font-weight: bolder;*/
+/*}*/
+/*.bn{*/
+/*    display: inline;*/
+/*}*/
+/*.off{*/
+/*    font-weight: bolder;*/
+/*    color: red;*/
+/*}*/
+/*h4{*/
+/*    font-size: larger;*/
+/*}*/
+.svideo{
+    display: flex;
+}
